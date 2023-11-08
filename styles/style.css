@@ -1,6 +1,4 @@
-/* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
-/* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
 .page {
   background-color: var(--bg-color);
   background-image: var(--bg-picture);
@@ -235,7 +233,6 @@
   }
 }
 
-/*Доработать стили под разные экраны: 768 и 375*/
 @media (width <= 768px) {
   .header {
     align-items: center;
@@ -251,8 +248,7 @@
     margin-block-end: 0px;
     align-self: center;
     max-width: 364px;
-    
-  }
+      }
 
   .header__title {
     top: 40%;
